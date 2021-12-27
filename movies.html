@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive</title>
+	<link rel="stylesheet" type="text/css" href="images/style.css">
+	<script type="text/javascript" src="javascript/js.js"></script>
+</head>
+<body>
+	<header>
+		<a href="index.html" class="logo">Cine<span>Charlie</span></a>
+		<div class="menuToggle" onclick="toggleMenu();"></div>
+		<ul class="navigation">
+			<li><a href="movies.html" onclick="toggleMenu();">MOVIES</a></li>
+			<li><a href="buyTickets.html" onclick="toggleMenu();">BUY TICKETS</a></li>
+			<li><a href="location.html" onclick="toggleMenu();">LOCATIONS</a></li>
+			<li><a href="aboutus.html" onclick="toggleMenu();">ABOUT US</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+			
+		</ul>
+	</header>
+	<section class="banner" id="banner">
+		<div class="content">
+			<h2><a href="#menu" id="movies">Latest movies</a></h2>
+			<p>Scroll down to see latest movies<p>
+		</div>
+	</section>
+
+	<section class="menu" id="menu">
+		<div class="title">
+			<h2 class="titleText"><span>Premieres</span></h2>
+			<p>Lorem ipsum dolor sit amet, constetuetur adipisicing elit.</p>
+		</div>
+		<div class="content">
+			
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/jamesbond.jpg">
+				</div>
+				<div class="text">
+					<h3 id="movie">James Bond: No time to die</h3>
+					<form action="buyTickets.html">
+						<button type="submit" class="btn" onclick="chooseTheMovie();">Buy ticket</button>
+					</form>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/zgjoi.jpg">
+				</div>
+				<div class="text">
+					<h3 id="movie">Hive/Zgjoi</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/76days.png">
+				</div>
+				<div class="text">
+					<h3 id="movie">76 days</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/drivemycar.jpg">
+				</div>
+				<div class="text">
+					<h3 id="movie">Drive my car</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/quovadis.jpg">
+				</div>
+				<div class="text">
+					<h3 id="movie">Quo Vadis Ada?</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img  id="movie" src="images/mayor.jpg">
+				</div>
+				<div class="text">
+					<h3>Mayor</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/jamesbond.jpg">
+				</div>
+				<div class="text">
+					<h3>James Bond: No time to die</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/zgjoi.jpg">
+				</div>
+				<div class="text">
+					<h3>Hive/Zgjoi</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/76days.png">
+				</div>
+				<div class="text">
+					<h3>76 days</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/drivemycar.jpg">
+				</div>
+				<div class="text">
+					<h3>Drive my car</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/quovadis.jpg">
+				</div>
+				<div class="text">
+					<h3>Quo Vadis Ada?</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/mayor.jpg">
+				</div>
+				<div class="text">
+					<h3>Mayor</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/jamesbond.jpg">
+				</div>
+				<div class="text">
+					<h3 id="movie">James Bond: No time to die</h3>
+					<button type="button" class="btn" onclick="getTickets();">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/zgjoi.jpg">
+				</div>
+				<div class="text">
+					<h3 id="movie">Hive/Zgjoi</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/76days.png">
+				</div>
+				<div class="text">
+					<h3>76 days</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/drivemycar.jpg">
+				</div>
+				<div class="text">
+					<h3>Drive my car</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/quovadis.jpg">
+				</div>
+				<div class="text">
+					<h3>Quo Vadis Ada?</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/mayor.jpg">
+				</div>
+				<div class="text">
+					<h3>Mayor</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/jamesbond.jpg">
+				</div>
+				<div class="text">
+					<h3>James Bond: No time to die</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/zgjoi.jpg">
+				</div>
+				<div class="text">
+					<h3>Hive/Zgjoi</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/76days.png">
+				</div>
+				<div class="text">
+					<h3>76 days</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/drivemycar.jpg">
+				</div>
+				<div class="text">
+					<h3>Drive my car</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/quovadis.jpg">
+				</div>
+				<div class="text">
+					<h3>Quo Vadis Ada?</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/mayor.jpg">
+				</div>
+				<div class="text">
+					<h3>Mayor</h3>
+					<button type="button" class="btn">Buy ticket</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contact" id="contact">
+			<div class="title">
+				<h2 class="titleText">Contact</h2>
+				<p>Contact us for agreements or suggestions.</p>
+			</div>
+			<div class="contactForm">
+				<form>
+				<h3>Send message</h3>
+				<div class="inputBox">
+					<input type="text" placeholder="Name">
+				</div>
+				<div class="inputBox">
+					<input type="email" placeholder="Email">
+				</div>
+				<div class="inputBox">
+					<textarea placeholder="Write your message"></textarea>
+				</div>
+				<div class="inputBox">
+					<input type="submit" value="Send"><input type="reset" value="Reset">
+				</div>
+				</form>
+			</div>
+		</section>
+
+	</html>

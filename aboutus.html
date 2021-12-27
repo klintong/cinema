@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive</title>
+	<link rel="stylesheet" type="text/css" href="images/style.css">
+	<script type="text/javascript" src="javascript/js.js"></script>
+
+</head>
+<body>
+	<header>
+		<a href="index.html" class="logo">Cine<span>Charlie</span></a>
+		<div class="menuToggle" onclick="toggleMenu();"></div>
+		<ul class="navigation">
+			<li><a href="movies.html" onclick="toggleMenu();">MOVIES</a></li>
+			<li><a href="buyTickets.html" onclick="toggleMenu();">BUY TICKETS</a></li>
+			<li><a href="locations.html" onclick="toggleMenu();">LOCATIONS</a></li>
+			<li><a href="aboutus.html" onclick="toggleMenu();">ABOUT US</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+		</ul>
+	</header>
+	
+	<section class="aboutUs" style="background:url('images/cinemafree.png');" >
+		<div class="title white">
+			<h2 class="titleText"><span>About Us</span></h2>
+		</div>
+		<div class="content">
+			<div class="box" style="width: 100%;">
+				
+				<h2>CineCharlie</h2>
+				<div class="text">
+					<p>Approximately 200 million guests will enjoy the best movie-going experience in the industry at more than 380 AMC Theatres® locations this year. With best-in-class amenities such as plush, power recliners, MacGuffins full bars, AMC Dine-In Theatres, premium presentation formats including Dolby Cinema at AMC and IMAX, AMC is recognized as the industry leader and an iconic destination for movie-goers. And it all started when the son of one of the original owners returned from serving in the army and took over a successful Midwestern family business.Stanley Durwood saw one screen in one building as limiting. People wanted more choices.</p>
+					<h3>James D. McGuffins</h3>
+				</div>
+			</div>	
+		</div>
+	</section>
+	<section class="contact" id="contact">
+			<div class="title">
+				<h2 class="titleText">Contact</h2>
+				<p></p>
+			</div>
+			<div class="contactForm">
+				<form>
+					<h3>Send message</h3>
+					<div class="inputBox">
+						<input type="text" placeholder="Name" id="name">
+					</div>
+					<div class="inputBox">
+						<input type="email" placeholder="Email" id="email">
+					</div>
+					<div class="inputBox">
+						<textarea placeholder="Write your message" id="textarea"></textarea>
+					</div>
+					<div class="inputBox">
+						<input type="submit" name="submit" value="SUBMIT">
+						<input type="reset" name="reset" value="RESET">
+					</div>
+				</form>
+			</div>
+		</section>
+</body>
+</html>

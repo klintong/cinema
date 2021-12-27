@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive</title>
+	<link rel="stylesheet" type="text/css" href="images/style.css">
+	<script type="text/javascript" src="javascript/js.js"></script>
+
+</head>
+<body>
+	<header>
+		<a href="index.html" class="logo">Cine<span>Charlie</span></a>
+		<div class="menuToggle" onclick="toggleMenu();"></div>
+		<ul class="navigation">
+			<li><a href="movies.html" onclick="toggleMenu();">MOVIES</a></li>
+			<li><a href="buyTickets.html" onclick="toggleMenu();">BUY TICKETS</a></li>
+			<li><a href="locations.html" onclick="toggleMenu();">LOCATIONS</a></li>
+			<li><a href="aboutus.html" onclick="toggleMenu();">ABOUT US</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+			
+		</ul>
+	</header>
+	<section class="banner" id="banner">
+		<div class="content">
+			<h2>Feels like home</h2>
+			<p>We are always changing the way our guests see movies and shows.</p>
+			<a href="#menu" class="btn">PREMIERES</a>
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<div class="row">
+			<div class="col50">
+				<h2 class="titleText">About Us</h2>
+				<p>During the next three decades of Durwood’s leadership, AMC continued to innovate with the movie-goer in mind. The armchair cup holder, stadium seating and the industry’s first rewards program continued to revolutionize the cinema industry.
+				<br><br>That innovation continued into the 21st century, as AMC was on the cutting-edge of innovation through the co-founding of online ticketing, circuit-wide gift cards, a groundbreaking partnership with IMAX, the launch of AMC 	Stubs rewards program, and the introduction of AMC Dine-In Theatres. AMC also greatly expanded its footprint in North America through the acquisition of Loews Theatres and Kerasotes Theatres.</p>
+			</div>
+			<div class="col50">
+				<div class="imgBx">
+					<img src="images/film1.jpg">
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="menu" id="menu">
+		<div class="title">
+			<h2 class="titleText"><span>Premieres</span></h2>
+			<p>Lorem ipsum dolor sit amet, constetuetur adipisicing elit.</p>
+		</div>
+		<div class="content">
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/jamesbond.png">
+				</div>
+				<div class="text">
+					<h3 >James Bond: No time to die</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/zgjoi.png">
+				</div>
+				<div class="text">
+					<h3>Hive/Zgjoi</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/76days.png">
+				</div>
+				<div class="text">
+					<h3>76 days</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/drivemycar.jpg">
+				</div>
+				<div class="text">
+					<h3>Drive my car</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/quovadis.jpg">
+				</div>
+				<div class="text">
+					<h3>Quo Vadis Ada?</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/mayor.jpg">
+				</div>
+				<div class="text">
+					<h3>Mayor</h3>
+				</div>
+			</div>
+		</div>
+		<div class="title">
+			<a href="movies.html" class="btn">View all</a>
+		</div>
+	</section>
+	<section class="contact" id="contact">
+			<div class="title">
+				<h2 class="titleText">Contact</h2>
+				<p>Lorem ipsum dolor sit amet, constetuetur adipisicing elit.</p>
+			</div>
+			<div class="contactForm">
+				<form>
+					<h3>Send message</h3>
+					<div class="inputBox">
+						<input type="text" placeholder="Name" id="name">
+					</div>
+					<div class="inputBox">
+						<input type="email" placeholder="Email" id="email">
+					</div>
+					<div class="inputBox">
+						<textarea placeholder="Write your message" id="textarea"></textarea>
+					</div>
+					<div class="inputBox">
+						<input type="submit" name="submit" value="submit">
+						<input type="reset" name="reset" value="RESET">
+					</div>
+				</form>
+			</div>
+		</section>
+
+</body>
+</html>

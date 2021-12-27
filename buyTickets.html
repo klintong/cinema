@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive</title>
+	<link rel="stylesheet" type="text/css" href="images/style.css">
+	<script type="text/javascript" src="javascript/js.js"></script>
+
+</head>
+<body>
+	<header>
+		<a href="index.html" class="logo">Cine<span>Charlie</span></a>
+		<div class="menuToggle" onclick="toggleMenu();"></div>
+		<ul class="navigation">
+			<li><a href="movies.html" onclick="toggleMenu();">MOVIES</a></li>
+			<li><a href="#" onclick="toggleMenu();">BUY TICKETS</a></li>
+			<li><a href="locations.html" onclick="toggleMenu();">LOCATIONS</a></li>
+			<li><a href="#aboutus.html" onclick="toggleMenu();">ABOUT US</a></li>
+			<li><a href="">CONTACT</a></li>
+		</ul>
+	</header>
+
+	<section class="tickets" id="tickets">
+			<div class="title">
+				<h2 class="titleText">Buy Tickets</h2>
+				<p>You will have fun.</p>
+			</div>
+			<div class="ticketsForm">
+				<form onsubmit="return false">
+				<h3>Buy tickets...</h3>
+				<div class="inputBox">
+					<label>Nr of tickets:</label>
+					<input type="number" id="nrTickets" min="1" max="99">
+				</div>
+				<div class="inputBox">
+					<label>Name:&emsp;&ensp;&nbsp;&nbsp;&nbsp;</label>
+					<input type="text" id="name">
+				</div>
+				<div class="inputBox">
+					<label>Last<br>name:&emsp;&ensp;</label>
+					<input type="text"  id="lastname">
+				</div>
+			
+				<div class="inputBox">
+					<label>Select time:&emsp;</label>
+					<select id="time">
+						<option selected="selected" value="selected">HH:MM</option>
+						<option>14:00</option>
+						<option>16:00</option>
+						<option>18:00</option>
+						<option>20:00</option>
+						<option>21:30</option>
+					</select>
+				</div>
+
+				<div class="inputBox">
+					<label>Movie:&emsp;&ensp;</label>
+					<select name="movie" id="movieSel">
+						<option selected="selected" id="selected">Choose the movie</option>
+						<option>James Bond:No time to die</option>
+						<option>Hive/Zgjoi</option>
+						<option>76 days</option>
+						<option>Mayor</option>
+						<option>Quo Vadis Ada?</option>
+						<option>Drive My Car</option>
+					</select>
+				</div>
+				<div class="inputBox">
+					<label>Seat: (to the left if >1 tickets)</label>
+					<select id="row">
+						<option selected="selected" value="selected">Row</option>
+						<option>A</option><option>B</option><option>C</option>
+						<option>D</option><option>E</option><option>G</option>
+						<option>H</option><option>F</option><option>G</option>
+						<option>J</option><option>K</option>
+					</select>
+					<select id="seat">
+						<option selected="selected">Seat</option>
+						<option>1</option><option>2</option><option>3</option><option>4</option>
+						<option>5</option><option>6</option><option>7</option><option>8</option>
+						<option>9</option><option>10</option>
+						<option>11</option>
+						<option>12</option>
+					</select>
+				</div>
+				<button onclick="buyTicket();">Buy Tickets</button>
+				<h3 id="print"></h3>				
+				</form>
+			</div>
+		</section>
+		<section class="contact" id="contact">
+			<div class="title">
+				<h2 class="titleText">Contact</h2>
+				<p>Lorem ipsum dolor sit amet, constetuetur adipisicing elit.</p>
+			</div>
+			<div class="contactForm">
+				<form>
+					<h3>Send message</h3>
+					<div class="inputBox">
+						<input type="text" placeholder="Name" id="name">
+					</div>
+					<div class="inputBox">
+						<input type="email" placeholder="Email" id="email">
+					</div>
+					<div class="inputBox">
+						<textarea placeholder="Write your message" id="textarea"></textarea>
+					</div>
+					<div class="inputBox">
+						<input type="submit" name="submit" value="SUBMIT">
+						<input type="reset" name="reset" value="RESET">
+					</div>
+				</form>
+			</div>
+		</section>
+
+</body>
+</html>
